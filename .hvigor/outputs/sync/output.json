@@ -2,49 +2,49 @@
   "version": 1,
   "ohos-module-entry": {
     "SELECT_TARGET": "default",
-    "MODULE_BUILD_DIR": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build",
+    "MODULE_BUILD_DIR": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build",
     "TARGETS": {
       "default": {
-        "SOURCE_ROOT": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/src/main",
+        "SOURCE_ROOT": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/src/main",
         "RESOURCES_PATH": [
-          "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/src/main/resources"
+          "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/src/main/resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/outputs/default",
-          "INTERMEDIA_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates",
-          "JS_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out/default",
-          "JS_LITE_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out_lite/default",
-          "RES_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/default",
-          "RES_PROFILE_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/default/resources/base/profile",
-          "ETS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/cache/default/default@CompileArkTS/esmodule",
-          "JS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/cache/default/default@CompileJS/jsbundle",
-          "WORKER_LOADER": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader/default/loader.json",
-          "MANIFEST_JSON": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/manifest/default",
-          "OUTPUT_METADATA_JSON": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
-          "SOURCE_MAP_DIR": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/source_map/default"
+          "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/source_map/default"
         },
         "BUILD_OPTION": {
           "debuggable": true
         }
       },
       "ohosTest": {
-        "SOURCE_ROOT": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/src/ohosTest",
+        "SOURCE_ROOT": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/src/ohosTest",
         "RESOURCES_PATH": [
-          "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/src/ohosTest/resources"
+          "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/src/ohosTest/resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/outputs/ohosTest",
-          "INTERMEDIA_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates",
-          "JS_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out/ohosTest",
-          "JS_LITE_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out_lite/ohosTest",
-          "RES_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/ohosTest",
-          "RES_PROFILE_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
-          "ETS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
-          "JS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
-          "WORKER_LOADER": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader/ohosTest/loader.json",
-          "MANIFEST_JSON": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/manifest/ohosTest",
-          "OUTPUT_METADATA_JSON": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
-          "SOURCE_MAP_DIR": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/source_map/ohosTest"
+          "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/source_map/ohosTest"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -110,18 +110,18 @@
   },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
-    "MODULE_BUILD_DIR": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/build",
+    "MODULE_BUILD_DIR": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/build",
     "BUNDLE_NAME": "top.rayawa.complexsweeper",
-    "VERSION_CODE": 1000000,
-    "VERSION_NAME": "1.0.0",
+    "VERSION_CODE": 1000001,
+    "VERSION_NAME": "1.0.1",
     "BUILD_VERSION": "1",
     "BUILD_PATH": {
-      "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/build/outputs/default"
+      "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/build/outputs/default"
     },
     "MODULES": [
       {
         "name": "entry",
-        "srcPath": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry",
+        "srcPath": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS/entry",
         "targets": [
           {
             "name": "default",
@@ -130,7 +130,7 @@
             ]
           }
         ],
-        "belongProjectPath": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS"
+        "belongProjectPath": "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS"
       }
     ],
     "PROFILE_OPT": {
@@ -195,7 +195,7 @@
       "hvigor.keepDependency": true
     },
     "OVERALL_PROJECT_PATHS": [
-      "/Users/raychen/Develop/ComplexSweeper-HarmonyOS"
+      "/Users/raychen/Develop/ComplexSweeper/ComplexSweeper-HarmonyOS"
     ],
     "BUILD_CACHE_DIR": ""
   }
