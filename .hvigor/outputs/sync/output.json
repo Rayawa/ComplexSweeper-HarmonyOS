@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry/build/default/intermediates/source_map/ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "resOptions": {
+          "copyCodeResource": {
+            "enable": false
+          }
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "resOptions": {
+          "copyCodeResource": {
+            "enable": false
+          }
+        }
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/build",
+    "BUNDLE_NAME": "top.rayawa.complexsweeper",
+    "VERSION_CODE": 1000000,
+    "VERSION_NAME": "1.0.0",
+    "BUILD_VERSION": "1",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS/entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/raychen/Develop/ComplexSweeper-HarmonyOS"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.cer",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001A1CB64E69F84BD6520688B19DB4AE9F95165D654E2195F6BF25AC34C23A1CCD13C350EBE598FC",
+              "profile": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.p12",
+              "storePassword": "0000001A0428EDF925C7F1F0E53BBBFDBDA2C54AAEF2EC89020A046C870EA964BE47A0CD6AB7266A9DBD"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "targetSdkVersion": "26.0.0",
+            "compatibleSdkVersion": "6.1.0(23)",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "strictMode": {
+                "caseSensitiveCheck": true,
+                "useNormalizedOHMUrl": true
+              }
+            }
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Users/raychen/Develop/ComplexSweeper-HarmonyOS"
+    ],
+    "BUILD_CACHE_DIR": ""
+  }
+}

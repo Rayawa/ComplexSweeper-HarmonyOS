@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A1CB64E69F84BD6520688B19DB4AE9F95165D654E2195F6BF25AC34C23A1CCD13C350EBE598FC",
+          "profile": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.p12",
+          "storePassword": "0000001A0428EDF925C7F1F0E53BBBFDBDA2C54AAEF2EC89020A046C870EA964BE47A0CD6AB7266A9DBD"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "6.1.0(23)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
