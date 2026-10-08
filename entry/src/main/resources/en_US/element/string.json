@@ -2,19 +2,19 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "复扫雷主模块"
+      "value": "ComplexSweeper entry module"
     },
     {
       "name": "EntryAbility_desc",
-      "value": "复扫雷"
+      "value": "ComplexSweeper"
     },
     {
       "name": "EntryAbility_label",
-      "value": "复扫雷"
+      "value": "ComplexSweeper"
     },
     {
       "name": "vibrate_reason",
-      "value": "翻开格子与标记地雷时给出触感反馈"
+      "value": "Haptic feedback when a cell is revealed or a mine is flagged"
     }
   ]
 }

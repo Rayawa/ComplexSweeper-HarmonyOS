@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.cer",
+          "certpath": "/Users/raychen/.ohos/config/default_ComplexSweeper-HarmonyOS_d3c2l1brm3ShJW9HIn9eB8_XDcNSr2x8zEHRELLjaeg=.cer",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001A1CB64E69F84BD6520688B19DB4AE9F95165D654E2195F6BF25AC34C23A1CCD13C350EBE598FC",
-          "profile": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.p7b",
+          "keyPassword": "0000001B30BD2DACF0D13D1D5AAEEFF50104C742461A97E236E5A9B04F88F16269906ED59F50589D0D70DF",
+          "profile": "/Users/raychen/.ohos/config/default_ComplexSweeper-HarmonyOS_d3c2l1brm3ShJW9HIn9eB8_XDcNSr2x8zEHRELLjaeg=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/raychen/.ohos/config/default_ComplexMinesweeper_AWSo2Zw0ADsLSeAgChSls2XN5cKnOwpvDhhx4yRvgZk=.p12",
-          "storePassword": "0000001A0428EDF925C7F1F0E53BBBFDBDA2C54AAEF2EC89020A046C870EA964BE47A0CD6AB7266A9DBD"
+          "storeFile": "/Users/raychen/.ohos/config/default_ComplexSweeper-HarmonyOS_d3c2l1brm3ShJW9HIn9eB8_XDcNSr2x8zEHRELLjaeg=.p12",
+          "storePassword": "0000001BD631793E88DD8CFEA4302C6BB222445EC1F6DCD2D184C1C1042F98BD5D9DA04071471EE9BBEF1F"
         }
       }
     ],
